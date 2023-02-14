@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    background-color: #f6f8fa;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./Photos/mainBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    /* position: relative; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.main-logo{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+hr{
+    margin: 0 85px;
+}
+header div{
+    margin-left: 150px;
+    color: white;
+    margin-top: 85px;
+}
+header div h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+header div p{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+button{
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.logos {
+    background-color: #fff;
+    margin: 0 35px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+.cards-wrapper-section h1 {
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+  
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+  
+.card {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+  
+.cards-wrapper div:nth-child(2) {
+    margin-top: 50px;
+  }
+.cards-wrapper div:nth-child(3) {
+    margin-top: 100px;
+  }
+.cards-wrapper div:nth-child(4) {
+    margin-top: 160px;
+  }
+.cards-wrapper div:nth-child(5) {
+    margin-top: 100px;
+  }
+.cards-wrapper div:nth-child(6) {
+    margin-top: 40px;
+  }
+.cards-wrapper div:nth-child(7) {
+    margin-top: 40px;
+  }
+.cards-wrapper div:nth-child(8) {
+    margin-top: 100px;
+  }
+.cards-wrapper div:nth-child(9) {
+    margin-top: 160px;
+}
+  
+.card img {
+    width: 350px;
+    height: 380px;
+    border-radius: 20px;
+}
+  
+.card-box {
+    width: 280px;
+    height: 100px;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    bottom: -50px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+  
+.card-box button {
+    font-weight: 500;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+    margin-left: 45px;
+}
+  
+.card-box div h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+  
+.card-box div p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+}
+.details{
+    display: flex;
+    margin-top: 150px;
+}
+.details div:first-child img:first-child {
+    position: absolute;
+    height: 460px;
+}
+.img1{
+    margin-left: 105px;
+    border-radius: 30px;
+    position: absolute;
+    height: 360px;
+}
+.details .details-heading{
+    margin-left: 50%;
+    margin-top: 60px;
+}
+.details .details-heading h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.details .details-heading p{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 500;
+    font-size: 17px;
+}
+.details .details-heading button{
+    font-weight: 600;
+}
+
+
+.details2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 5%;
+}
+  
+.details2 div {
+    width: 50%;
+}
+.details2 div h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.details2 div p{
+    margin-bottom: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.details2 div button{
+    font-weight: 500;
+}
+.details2 div:last-child{
+    position: relative;
+}
+.details2 div:last-child img:first-child {
+    position: absolute;
+    right: 0;
+    width: 726px;
+    height: 456px;
+    bottom: -220px;
+}
+  
+.details2 div:last-child img:last-child {
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    border-radius: 48px;
+    right: 135px;
+    bottom: -110px;
+}
+
+.subscription{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 250px;
+    background: #6663e9;
+    margin: 110px 60px 0 60px;
+    padding: 60px 0px 60px 0;
+}
+.subscription h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.subscription p{
+    color: white;
+    margin-bottom: 20px;
+}
+.subscription form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.subscription form div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 40px;
+    background: #5654d1;
+    width: 450px;
+    height: 61px;
+    padding: 0 20px;
+}
+.subscription div input{
+    border: none;
+    background-color: transparent;
+}
+.subscription form button{
+    background-color: white;
+    color:  #6663e9;
+    height: 60px;
+    width: 200px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+footer div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 110px;
+}
+footer div:first-child div img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+footer div p{
+    font-size: 18px;
+}
+.footer-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+    margin-right: 100px;
+}
+  
+.footer-links-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links-content ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-links-content ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-links-content li a{
+    text-decoration: none;
+    color: black;
+}

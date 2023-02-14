@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f0f4f5;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div .logo{
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.links{
+    display: flex;
+    margin-right: 150px;
+    gap: 40px;
+    font-weight: 700;
+}
+nav ul li{
+    list-style: none;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.main{
+    text-align: center;
+    margin-top: 17%;
+}
+.main h1{
+    color: #20bc7e;
+    font-weight: 700;
+    font-size: 30px;
+}
+.desc p{
+    margin-top: 10px;
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.doctors p, .customers p, .students p{
+    color: #20bc7e;
+    font-weight: 600;
+}
+
+.doctors{
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers{
+    width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.students{
+    width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
